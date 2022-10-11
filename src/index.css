@@ -1,0 +1,11 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('http://fonts.cdnfonts.com/css/dinpro-regular');
+@import url('http://fonts.cdnfonts.com/css/dinpro-black');
+
+  body {
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+}

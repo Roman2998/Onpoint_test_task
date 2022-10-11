@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+    top: 169px;
+    left: 69px;
+    width: 911px;
+    height: 391px;
+}
+.text {
+    letter-spacing: 4px;
+    line-height: 110%;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 110px;
+    text-transform: uppercase;
+}
+.text > b {
+    font-family: 'Gilroy-Heavy', sans-serif;
+    display: inline-block;
+}
+.hello {
+    font-family: 'DINPro-Regular', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}

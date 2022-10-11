@@ -1,0 +1,88 @@
+.container {
+    position: relative;
+    top: 169px;
+    left: 227px;
+    width: 717px;
+    height: 475px;
+}
+.container > svg {
+    position: absolute;
+    height: 700px;
+    width: 244px;
+    z-index: 47;
+    top: -102px;
+    left: -181px;
+}
+.caption {
+    height: 210px;
+    margin: 0 0 0 125px;
+}
+.keyMessage {
+    font-family: 'DINPro-Regular', sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.nameMessage {
+    font-family: 'DINPro-Regular', sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 1;
+    margin: 0 0 0 -8px;
+}
+.nameMessage > b {
+    font-family: 'DINPro-Black', sans-serif;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DINPro-Regular', sans-serif;
+    font-size: 25px;
+}
+.blockOne {
+    width: 413px;
+    max-width: 413px;
+    height: 265px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 0 65px 0 rgb(0 0 0 / 15%);
+    position: relative;
+}
+
+.blockOne > p {
+    margin: 40px 40px 0 125px;
+
+}
+
+.blockOne > svg {
+    position: absolute;
+    top: -30px;
+    height: 58px;
+    left: 85px;
+}
+
+.blockTwo {
+    width: 263px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 0 65px 0 rgb(0 0 0 / 15%);
+    position: relative;
+}
+
+.blockTwo > p {
+    margin: 40px;
+}
+.blockTwo > svg {
+    position: absolute;
+    top: -25px;
+    height: 58px;
+}
+
+.button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
