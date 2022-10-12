@@ -15,15 +15,6 @@ const SecondSlide = () => {
 		})
 	}
 
-	const handleScroll = event => {
-
-		setSlider({
-			...slider,
-			value: event.currentTarget.scrollTop
-		})
-
-	};
-
 	const scrollRef = useRef(null)
 
 	useEffect(() => {
@@ -50,7 +41,7 @@ const SecondSlide = () => {
 					</div>
 				</div>
 				<div className={classes.bgText}>
-					<div className={classes.text} onScroll={handleScroll} ref={scrollRef}>
+					<div className={classes.text} ref={scrollRef}>
 						<b>Lorem ipsum dolor sit amet,</b> consectetur adipisicing elit. Accusantium, aut
 						consequatur corporis optio perspiciatis provident reiciendis reprehenderit rerum. Cupiditate
 						enim iste maxime praesentium vero. Ad eligendi id minima necessitatibus obcaecati.

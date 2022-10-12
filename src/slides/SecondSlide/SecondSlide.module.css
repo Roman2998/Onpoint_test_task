@@ -33,6 +33,7 @@
 }
 
 .slider {
+    transform: rotate(0deg);
     -webkit-appearance: slider-vertical;
 }
 
